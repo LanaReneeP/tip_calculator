@@ -34,7 +34,7 @@
                     <div class="col-sm-6">
                         <div class="subtotal-div">
                             <form action="#" class="form tip-form" id="tipForm">
-                                <h2 class="form-heading text-capitalize">your subtotal: $<span id="cardSubtotal">0.00</span></h2>
+                                <h2 class="form-heading text-capitalize">your subtotal: $<span id="cartSubtotal">0.00</span></h2>
                                 <select name="tipAmt" id="tipAmt">
                                     <option value="">Choose Tip</option>
                                     <option value=".1">10%</option>
@@ -51,23 +51,25 @@
                     <div class="col-sm-6">
                         <div class="ticket-div">
                             <h2 class="text-capitalize text-center">your receipt:</h2>
-                            <div class="col-9">
-                                <table class="receipts" id="receiptTable">
-                                    <tbody id="receipt">
-                                        <tr>
-                                            <td class="table-header text-capitalize text-center">item</td>
-                                            <td class="table-header text-capitalize text-center">quantity</td>
-                                            <td class="table-header text-capitalize text-center">price</td>
-                                            <td class="table-header text-capitalize text-center">item total</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-3">
-                                <p class="text-end">Subtotal: $<span id="theSubtotal">0.00</span></p>
-                                <p class="text-end">Tax: $<span id="tax">0.00</span></p>
-                                <p class="text-end tip-total" id="tipTotal">Tip: $<span id="yourTip">0.00</span></p>
-                                <p class="text-end total-text">Total Bill: $<span id="total">0.00</span></p>
+                            <div class="row">
+                                <div class="col-9">
+                                    <table class="receipts" id="receiptTable">
+                                        <tbody id="receipt">
+                                            <tr>
+                                                <td class="table-header text-capitalize text-center">item</td>
+                                                <td class="table-header text-capitalize text-center">quantity</td>
+                                                <td class="table-header text-capitalize text-center">price</td>
+                                                <td class="table-header text-capitalize text-center">item total</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <p class="text-end">Subtotal: $<span id="theSubtotal">0.00</span></p>
+                                    <p class="text-end">Tax: $<span id="tax">0.00</span></p>
+                                    <p class="text-end tip-total" id="tipTotal">Tip: $<span id="yourTip">0.00</span></p>
+                                    <p class="text-end total-text">Total Bill: $<span id="total">0.00</span></p>
+                                </div>
                             </div>
                         </div>
                     </div>
